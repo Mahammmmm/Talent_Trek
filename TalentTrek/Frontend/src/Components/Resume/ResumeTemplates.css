@@ -1,0 +1,156 @@
+
+.form_FirstContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px; /* Add padding for better spacing */
+  }
+  
+  .Brown {
+    color: #BB7C1E;
+  }
+  
+  .Heading {
+    color: white;
+    margin: 0; /* Remove default margin to keep the heading on the leftmost corner */
+    font-family: Goblin One;
+  }
+  
+  .UserImage {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px; /* Adjust height for better appearance */
+  }
+  .form_SecondContainer{
+    
+  background-image: url('../../assets/resumebg.png');
+  width: 100%;
+      height: 450px; /* Set the desired height */
+      background-size: cover; /* Cover the entire container */
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      display: flex;   
+} 
+.form_ThirdContainer {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    background: rgba(212, 183, 139, 0.26);
+  }
+  
+  .Text2,
+  .Text3 {
+    text-align: center; /* Center the text within the container */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .Text2 {
+    font-weight: bolder;
+    font-size:400%;
+    color: #000;
+    text-align: center;
+    font-family: Gurajada;
+
+  }
+
+  .Text3 {
+    color: rgba(0, 0, 0, 0.60);
+    text-align: center;
+    font-family: Halant;
+    font-size: 150%;
+  }
+
+  .form_FourthContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    gap: 10px; /* Adjust the gap between images */
+   
+    height: 100vh; /*Set the container height to full viewport height */
+      background-color:  rgba(212, 183, 139, 0.26);
+    
+  }
+
+  .TemplateImg {
+    width: 400px; /* Set a specific width for the images */
+    height: 600px; /* Maintain aspect ratio */
+    position: relative;
+      cursor: pointer;
+  }
+  .TemplateImg2 {
+    width: 400px; /* Set a specific width for the images */
+    height: 600px; /* Maintain aspect ratio */
+    position: relative;
+      cursor: pointer;
+  }
+  .temp-image1 {
+    position: relative;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .temp-image1:hover {
+    opacity: 0.8; /* Set the desired opacity when hovering */
+  }
+  .temp-image2 {
+    position: relative;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .temp-image2:hover {
+    opacity: 0.8; /* Set the desired opacity when hovering */
+  }
+.overlay-button{
+    cursor: pointer;
+    background-color: #BB7C1E;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+      border-radius: 5px;
+      transition: opacity 0.3s ease-in-out;
+      transform: translate(-300%, -700%);
+}
+.overlay-button2{
+  cursor: pointer;
+  background-color: #BB7C1E;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+    border-radius: 5px;
+    transition: opacity 0.3s ease-in-out;
+    transform: translate(-300%, -700%);
+}
+.temp-image1:hover .overlay-button {
+    opacity: 1;
+  }
+  .imagtemp-image2e2:hover .overlay-button2 {
+    opacity: 1;
+  }
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  .option{
+    margin-top: 5%;
+  }
+  
+.footer div {
+    margin-bottom: 10px; /* Adjust the margin as needed */
+}
+.footer a {
+    margin: 0 10px;
+}
+.icons img {
+    width: 30px; /* Adjust the size of social icons as needed */
+    height: 30px;
+    margin: 0 5px;
+    border-radius: 15%;
+  }

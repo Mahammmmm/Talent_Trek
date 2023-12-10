@@ -1,0 +1,67 @@
+.bg{
+    
+    width: 1378px;
+    height: 696px;
+    background-color: white;
+    display: flex;
+}
+.TextBlock{
+    z-index: 2; /* Set a higher z-index to bring it to the front */
+    position: relative;
+}
+.ResumeParagraph{
+    color: #A76706;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    position: 'absolute'; 
+    margin-left:37%;
+    
+    margin-top: -63%;
+    
+    text-align: center;
+    z-index: 2;
+    
+}
+.headingResume{
+    padding-top: 40px;
+  color: white;
+  font-size: 40px;
+  margin-top: 12px;
+}
+.imageBlack{
+    height:420px;
+    width:520px;
+    margin-left:24%;
+    margin-top: 47%;
+    z-index: 1;
+}
+.images{
+    position: relative;
+    width: 100%; /* Set the width based on your layout */
+    height: auto; /* Maintain the aspect ratio */
+    margin-left:-1%;
+    margin-top: 2%;
+    z-index: 1; /* Ensure the image is behind the circle */
+}
+
+
+.imageBg{
+    height:560px;
+    width:740px;
+    position: absolute;
+    
+    z-index: 1;
+}
+.imageTop{
+    top:23px;
+    left:19px;
+    height:520px;
+    width:700px;
+    position: absolute;
+    
+    z-index: 2;
+    
+}

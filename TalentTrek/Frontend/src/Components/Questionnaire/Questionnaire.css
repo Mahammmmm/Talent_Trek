@@ -1,0 +1,166 @@
+/* Questionnaire.css */
+
+.Qst-FirstContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px; /* Add padding for better spacing */
+  }
+  
+  .Brown {
+    color: #BB7C1E;
+  }
+  
+  .Qst-Heading {
+    color: white;
+    margin: 0; /* Remove default margin to keep the heading on the leftmost corner */
+    font-family: Goblin One;
+  }
+  
+  .Qst-UserImage {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px; /* Adjust height for better appearance */
+  }
+.Qst-SecondContainer{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(212, 183, 139, 0.24);
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  width: auto;
+  height: 250px;
+  flex-shrink: 0;    
+}  
+.Qst-Text1{
+    margin: 0;  
+    flex: 1; /* Take up remaining space */ 
+    margin-left: 15%;
+    font-size: 50px;
+}
+.Qst-QuestionmarkImage{
+    width: 350px;
+    height: 247px;
+    margin-top: 1%;
+}
+.Qst-ThirdContainer {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+  }
+  
+  .Qst-Text2,
+  .Qst-Text3 {
+    text-align: center; /* Center the text within the container */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .Qst-Text2 {
+    font-weight: bolder;
+    font-size:xx-large;
+  }
+
+  .Qst-Text3 {
+    color: rgba(0, 0, 0, 0.60);
+  }
+
+  .Qst-FourthContainer {
+    display: flex;
+    align-items: center;
+    background: rgba(212, 183, 139, 0.24);
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25);
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+  }
+
+  .Qst-qstart{
+    margin-left: 60;
+  }
+
+  .Qst-QuestionContainer{
+    flex-direction: column; /* Stack children vertically */
+    margin-left: 10%;
+  }
+  .Qst-Text4{
+    color: rgba(0, 0, 0, 0.52);
+    font-family: Halant;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    
+  }
+  .Qst-question{
+    color: #000;
+    font-family: Halant;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    
+  }
+  
+ 
+  .Qst-button {
+    margin-top: 10px; /* Adjust margin as needed */
+    margin-bottom: 30px;
+    padding: 10px; /* Adjust padding as needed */
+    color: black;
+    font-weight:bold ;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    background: rgba(187, 124, 30, 0.79);
+    width: 45%;
+  }
+  .Qst-button:hover {
+    background-color:  rgba(187, 124, 30, 0.539); /* Change color on hover if desired */
+  }
+  .Qst-OptionContainer{
+    width:250px;
+    height: 35px;
+    border-radius: 10px;
+    background: rgba(212, 183, 139, 0.23);
+    margin-top: 2%;
+  }
+.Qst-footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+
+.Qst-footer div {
+    margin-bottom: 10px; /* Adjust the margin as needed */
+}
+.Qst-footer a {
+    margin: 0 10px;
+}
+.Qst-icons img {
+    width: 30px; /* Adjust the size of social icons as needed */
+    height: 30px;
+    margin: 0 5px;
+    border-radius: 15%;
+  }
+
+.Qst-option{
+  font-size:medium;
+}
+.Qst-input[type="radio"] {
+  width: 10px; /* Adjust width as needed */
+  height: 20px;
+  margin-right: 5px; /* Adjust margin as needed */
+  background-color: #e0e0e0; /* Replace with your desired background color */
+  border: 1px solid #ccc; /* Add border for better visibility */
+}
+.Qst-form{
+  margin-left: -100px;
+}
+  

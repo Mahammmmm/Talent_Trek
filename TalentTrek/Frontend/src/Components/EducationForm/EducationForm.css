@@ -1,0 +1,195 @@
+/* Questionnaire.css */
+.overallbg{
+    background: rgba(212, 183, 139, 0.19);
+}
+.Edu-FirstContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px; /* Add padding for better spacing */
+  }
+  
+  .Brown {
+    color: #BB7C1E;
+  }
+  
+  .Edu-Heading {
+    color: white;
+    margin: 0; /* Remove default margin to keep the heading on the leftmost corner */
+    font-family: Goblin One;
+  }
+  
+  .Edu-UserImage {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px; /* Adjust height for better appearance */
+    
+  }
+  .Edu-SecondContainer{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25);
+  padding: 5px;
+  width: auto;
+  height: 250px;
+  flex-shrink: 0;    
+  border-radius: 0px 0px 0px 328px;
+  }  
+  .Edu-Text1{
+    margin: 0;  
+    flex: 1; /* Take up remaining space */ 
+    margin-left: 10%;
+    font-size: 30px;
+    font-family: Goudy Stout;
+    
+  }
+  
+  
+  .Edu-QuestionmarkImage{
+    width: 370px;
+    height: 247px;
+    margin-top: 1%;
+  }
+  .Edu-ThirdContainer {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    height: 15vh;
+    width: 80%;
+  }
+  
+  .Edu-Text2 {
+    text-align: center; /* Center the text within the container */
+    margin: 0; /* Remove default margin */
+    font-size:45px;
+    color: rgba(0, 0, 0, 0.49);
+  font-family: Gurajada;
+  }
+
+  
+  .Edu-footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .Edu-footer div {
+    margin-bottom: 10px; /* Adjust the margin as needed */
+  }
+  .Edu-footer a {
+    margin: 0 10px;
+  }
+  .Edu-icons img {
+    width: 30px; /* Adjust the size of social icons as needed */
+    height: 30px;
+    margin: 0 5px;
+    border-radius: 15%;
+  }
+
+  /*matric*/
+  .checkbov-div{
+
+    margin-left: -140px;
+  }
+  select{
+    padding: 10px;
+    margin: 10px;
+    width:90%;
+  }
+  .matric-input{
+    padding: 10px;
+    margin: 10px;
+  }
+.subjects{
+    margin: 0px;
+    padding: 0px;
+  }
+  .Edu-blur-container1 {
+    background: white;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+    height: auto;
+    width: 80%;
+    height: 70%;
+    margin-left: 10%;
+    
+  }
+  .Edu-upper-section1{
+    background-color: rgba(212, 183, 139, 0.62);
+    text-align: center;
+  }
+.Edu-us1{
+    font-family: Gurajada;
+    font-size: 200%;
+}
+.Edu-lower-section1{
+    display: flex;
+}
+.form-container1 {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .image-container1 {
+    flex: 2;
+  }
+
+  .matric {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 299px 0px 0px 299px;
+  }
+
+/*Intermediate*/
+
+.Edu-blur-container2 {
+    background: white;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+    height: auto;
+    width: 80%;
+    height: 70%;
+    margin-left: 10%;
+    
+  }
+  .Edu-upper-section2{
+    background-color: rgba(212, 183, 139, 0.62);
+    text-align: center;
+  }
+.Edu-us2{
+    font-family: Gurajada;
+    font-size: 200%;
+}
+.Edu-lower-section2{
+    display: flex;
+}
+.intermediate {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 0px 298.5px 298.5px 0px;
+  }
+
+  .form-container2 {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .image-container2 {
+    flex: 2;
+  }
+
+  .eduForm-Button{
+    background: #D4B78B;
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+    width: 15%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 500px;
+  }

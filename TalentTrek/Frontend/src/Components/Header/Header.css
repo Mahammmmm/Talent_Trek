@@ -1,0 +1,57 @@
+header{
+    min-height: 100vh;
+    background: url('../../assets/BooksImage.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header .wrapper{
+    position: relative;
+    height: 100vh;
+}
+.headerText{
+position: absolute;
+top:50%;
+bottom: 0%;
+left: 03%;
+width: 450px;
+background: rgba(0, 0, 0, 0.5);
+border-width: 4px 4px 0px 4px;
+border-style: solid;
+border-color: #FFF;
+backdrop-filter: blur(0px);
+border-radius: 20px 20px 0px 0px;
+padding: 50px 40px;
+}
+.slogan{
+    color: #FFF;
+    margin-top: -12px;
+    text-align: center;
+    font-family: 'Knewave',serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.headerParagraph{
+    width: 360px;
+    height: 422px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Gowun Batang', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+header .headerText .LoginButton{
+    border-radius: 10px;
+    background-color: #BB7C1E;
+    padding: 10px 32px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left:35%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}

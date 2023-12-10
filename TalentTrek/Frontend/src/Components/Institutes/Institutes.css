@@ -1,0 +1,51 @@
+.containerInstitutes {
+    position: relative;
+  }
+.background{
+    margin-top: 4.5%;
+    width: 1275px;
+    height: 696px;
+    border-radius: 0px 209px 0px 0px;
+    /*background: rgba(212, 183, 139, 0.25);*/
+    background-color: rgba(212, 183, 139, 0.62);;
+}
+.circle2{
+    position: absolute;
+  top: 75%;
+  left: 70%;
+  transform: translate(-50%, -50%); /* Center the circle horizontally and vertically */
+  width: 400px; /* Adjust the width and height as needed */
+  height: 400px;
+  background-color: #A76706;
+  backdrop-filter: blur(0.5px);
+  border-radius: 40%; /* Ensures the div is a circle */
+  color: white; /* Set the text color to contrast with the black background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px; /* Adjust the font size as needed */
+  padding: 4%;
+  z-index: 2; /* Set a higher z-index to bring it to the front */
+}
+.headingInstitutes{
+    padding-top: 70px;
+  color: black;
+  backdrop-filter: blur(0.5px);
+  font-size: 40px;
+  margin-top: 20px;
+}
+.text2{
+    text-align: center; /* Center-align the text */
+  }
+  .text2 p {
+    margin: 10%; /* Remove default paragraph margins */
+  }
+.image1{
+    position: relative;
+  z-index: 1; /* Ensure the image is behind the circle */
+  margin-top: 2%;
+  width: 735px;
+  height: 572px;
+  margin-left: 10%;
+  border-radius: 75px;
+}

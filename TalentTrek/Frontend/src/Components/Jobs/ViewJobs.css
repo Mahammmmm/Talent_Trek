@@ -1,0 +1,104 @@
+
+
+/* Questionnaire.css */
+
+.Inst-FirstContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 10px; /* Add padding for better spacing */
+}
+
+.Brown {
+  color: #BB7C1E;
+}
+
+.Inst-Heading {
+  color: white;
+  margin: 0; /* Remove default margin to keep the heading on the leftmost corner */
+  font-family: Goblin One;
+}
+
+.Inst-UserImage {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px; /* Adjust height for better appearance */
+  
+}
+.Inst-SecondContainer{
+  display: flex;
+justify-content: space-between;
+align-items: center;
+background: white;
+box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25);
+padding: 15px;
+width: auto;
+height: 250px;
+flex-shrink: 0;    
+border-radius: 0px 0px 419px 0px;
+}  
+.Inst-Text1{
+  margin: 0;  
+  flex: 1; /* Take up remaining space */ 
+  margin-left: 10%;
+  font-size: 30px;
+  font-family: Goudy Stout;
+  
+}
+
+
+.Inst-QuestionmarkImage{
+  width: 350px;
+  height: 247px;
+  margin-top: 1%;
+  border-radius: 0px 0px 419px 0px;
+}
+.Inst-ThirdContainer {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 10%;
+  height: 15vh;
+  width: 80%;
+  border-radius: 0px 436px 0px 457px;
+background: rgba(212, 183, 139, 0.62);
+}
+
+.Inst-Text2 {
+  text-align: center; /* Center the text within the container */
+  margin: 0; /* Remove default margin */
+}
+
+.Inst-Text2 {
+  font-weight: bold;
+  font-size:xx-large;
+  font-family: Grandstander;
+}
+
+
+
+
+.Inst-footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.Inst-footer div {
+  margin-bottom: 10px; /* Adjust the margin as needed */
+}
+.Inst-footer a {
+  margin: 0 10px;
+}
+.Inst-icons img {
+  width: 30px; /* Adjust the size of social icons as needed */
+  height: 30px;
+  margin: 0 5px;
+  border-radius: 15%;
+}
+
+

@@ -1,0 +1,50 @@
+.image-text-container {
+    text-align: center;
+    padding: 20px;
+  }
+.headingStyle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    height: 50px;
+    font-size: 34px;
+}
+  .image-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .image-item {
+    text-align: center;
+    text-decoration: none; /* Remove default underline for the anchor element */
+  }
+  
+  .image-content {
+    margin-top: 15%;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px; /* Adjust the border-radius as needed */
+    color: white; /* Set text color */
+    text-decoration: none; /* Remove underline for text */
+  }
+  
+  .image-item img {
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    border-radius: 50%; /* To make the image round */
+    margin-bottom: 10px;
+  }
+  
+  .image-item p {
+    margin: 10; /* Remove default paragraph margin */
+    font-size: 24px;
+  }
+  
+  /* Additional style to reduce space between images */
+.image-item + .image-item {
+    margin-left: -180px; /* Adjust the margin as needed */
+  }

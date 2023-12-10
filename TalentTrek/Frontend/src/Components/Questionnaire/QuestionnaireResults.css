@@ -1,0 +1,65 @@
+.QsrRst-FirstContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px; /* Add padding for better spacing */
+  }
+  
+  .Brown {
+    color: #BB7C1E;
+  }
+  
+  .QsrRst-Heading {
+    color: white;
+    margin: 0; /* Remove default margin to keep the heading on the leftmost corner */
+  }
+  
+  .QsrRst-UserImage {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px; /* Adjust height for better appearance */
+  }
+  .QsrRst-ResultImg{
+    display: flex;
+  width: 100%;
+  height: auto;   
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25);
+}  
+.QsrRst-Text2{
+    color: #A0650B;
+    font-family: Jua;
+    font-size: 45px;
+    margin-left: 3%;
+}
+.QsrRst-Text3{
+    color: rgba(0, 0, 0, 0.59);
+    font-family: Habibi;
+    font-size: 30px;
+    margin-left: 5%;
+}
+  .QsrRst-footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  .QsrRst-option{
+    margin-top: 5%;
+  }
+  
+.QsrRst-footer div {
+    margin-bottom: 10px; /* Adjust the margin as needed */
+}
+.QsrRst-footer a {
+    margin: 0 10px;
+}
+.QsrRst-icons img {
+    width: 30px; /* Adjust the size of social icons as needed */
+    height: 30px;
+    margin: 0 5px;
+    border-radius: 15%;
+  }
